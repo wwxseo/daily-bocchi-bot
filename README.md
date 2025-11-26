@@ -65,13 +65,4 @@
 打开 `main.py` 文件，找到第 **14** 行左右：
 ```python
 # tags=gotou_hitori 表示只搜波奇酱
-url = "https://safebooru.org/index.php?...&tags=gotou_hitori&..."
-
-将 gotou_hitori 修改为其他角色的英文标签即可。
-
-例如：喜多郁代 -> kita_ikuyo
-
-例如：伊地知虹夏 -> ijichi_nijika
-
-2. 修改推送时间
-打开 .github/workflows/daily_push.yml 文件，找到 cron 表达式：
+url = "[https://safebooru.org/index.php?...&tags=gotou_hitori](https://safebooru.org/index.php?...&tags=gotou_hitori)&..."
