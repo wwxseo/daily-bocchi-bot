@@ -66,3 +66,26 @@
 ```python
 # tags=gotou_hitori 表示只搜波奇酱
 url = "[https://safebooru.org/index.php?...&tags=gotou_hitori](https://safebooru.org/index.php?...&tags=gotou_hitori)&..."
+将 gotou_hitori 修改为其他角色的英文标签即可。
+
+例如：喜多郁代 -> kita_ikuyo
+
+例如：伊地知虹夏 -> ijichi_nijika
+
+2. 修改推送时间
+打开 .github/workflows/daily_push.yml 文件，找到 cron 表达式：
+- cron: '0 0 * * *' # UTC 0点 = 北京时间 8点
+改成 '0 23 * * *' -> 北京时间早上 7 点
+
+改成 '30 0 * * *' -> 北京时间早上 8:30
+❓ 常见问题 (FAQ)
+Q: 运行显示成功 (绿色对勾)，但手机没收到消息？ A: 99% 的原因是你忘记点击机器人的 Start 了。Telegram 规定机器人不能主动向陌生人发起对话。请先给你的机器人发一句 "hello"。
+
+Q: 图片加载失败或者发了一张奇怪的 GIF？ A: 脚本里写了“保底机制”。如果网络波动或者 API 没找到图，为了不让你失望，机器人会发一张默认的表情包。这属于正常现象。
+
+Q: 我想把仓库设为私有 (Private) 可以吗？ A: 完全可以。GitHub Actions 在私有仓库里也能免费运行（每月有 2000 分钟额度，足够用几百年了）。
+🤝 贡献与支持
+如果你觉得这个项目有趣，欢迎点击右上角的 ⭐️ Star 支持一下！
+
+📄 开源协议
+本项目基于 MIT License 开源。
