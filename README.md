@@ -93,4 +93,4 @@ Q: 我想把仓库设为私有 (Private) 可以吗？ A: 完全可以。GitHub A
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=wwxseo/daily-bocchi-bot&type=Date)](https://star-history.com/#wwxseo/daily-bocchi-bot&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=wwxseo/daily-bocchi-bot&type=Date)](https://star-history.com/#wwxseo/daily-bocchi-bot&Date)]
