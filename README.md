@@ -89,3 +89,6 @@ Q: 我想把仓库设为私有 (Private) 可以吗？ A: 完全可以。GitHub A
 
 📄 开源协议
 本项目基于 MIT License 开源。
+## 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=wwxseo/daily-bocchi-bot&type=Date)](https://star-history.com/#wwxseo/daily-bocchi-bot&Date)
