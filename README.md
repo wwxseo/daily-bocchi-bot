@@ -2,7 +2,7 @@
 
 这是一个基于 GitHub Actions 的自动化脚本。它每天会自动去 Safebooru 抓取一张 **后藤一里 (Bocchi the Rock!)** 的美图，并通过 Telegram 机器人发送给你。
 
-![运行效果截图](https://github.com/你的用户名/daily-bocchi-bot/blob/main/screenshot.jpg)
+![运行效果截图](https://github.com/wwxseo//daily-bocchi-bot/blob/main/screenshot.jpg)
 *(建议把你刚才那张 Telegram 收到消息的截图传到仓库里，替换上面这个链接，有图才有真相！)*
 
 ## ✨ 功能特点
