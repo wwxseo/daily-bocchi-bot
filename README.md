@@ -79,12 +79,12 @@ url = "[https://safebooru.org/index.php?...&tags=gotou_hitori](https://safebooru
 打开 .github/workflows/daily_push.yml 文件，找到 cron 表达式：
 
 YAML
-
+```python
 - cron: '0 0 * * *' # UTC 0点 = 北京时间 8点
 改成 '0 23 * * *' -> 北京时间早上 7 点
 
 改成 '30 0 * * *' -> 北京时间早上 8:30
-
+```
 ❓ 常见问题 (FAQ)
 Q: 运行显示成功 (绿色对勾)，但手机没收到消息？ A: 99% 的原因是你忘记点击机器人的 Start 了。Telegram 规定机器人不能主动向陌生人发起对话。请先给你的机器人发一句 "hello"。
 
